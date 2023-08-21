@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "60d84d122f3dea93f0d00dacb010e716aaee2657cd900e5fbd0671949dad5d8f"
+            "sha256": "3b553bf6fa921120105291e3bdf645350c4128d31d579f9e45b3bf035ef5940d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -29,7 +29,7 @@
                 "sha256:02bd91c4de869fbb1e1c50aafc4098827a7a54ab2f39d9dcba6c9547ed920e24",
                 "sha256:265a455292d0bd8a72453494fa24df5a11eb18373a60c7c0430889f22548605e"
             ],
-            "markers": "platform_system == 'Darwin'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==0.1.3"
         },
         "argon2-cffi": {
@@ -606,6 +606,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.24.0"
         },
+        "jupyterthemes": {
+            "hashes": [
+                "sha256:2a8ebc0c84b212ab99b9f1757fc0582a3f53930d3a75b2492d91a7c8b36ab41e",
+                "sha256:4bd42fc88a06e3afabbe70c2ee25e6467147512993a3cbd9bec57ae3fd2e2fb1"
+            ],
+            "index": "pypi",
+            "version": "==0.20.0"
+        },
         "kiwisolver": {
             "hashes": [
                 "sha256:02f79693ec433cb4b5f51694e8477ae83b3205768a6fb48ffba60549080e295b",
@@ -679,6 +687,13 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==1.4.4"
+        },
+        "lesscpy": {
+            "hashes": [
+                "sha256:1045d17a98f688646ca758dff254e6e9c03745648e051a081b0395c3b77c824c",
+                "sha256:8d26e58ed4812b345c2896daea435a28cb3182f87ae3391157085255d4c37dff"
+            ],
+            "version": "==0.15.1"
         },
         "markupsafe": {
             "hashes": [
@@ -1026,6 +1041,13 @@
             "markers": "python_version >= '3.7'",
             "version": "==3.10.0"
         },
+        "ply": {
+            "hashes": [
+                "sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3",
+                "sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce"
+            ],
+            "version": "==3.11"
+        },
         "prometheus-client": {
             "hashes": [
                 "sha256:21e674f39831ae3f8acde238afd9a27a37d0d2fb5a28ea094f0ce25d2cbf2091",
@@ -1105,7 +1127,7 @@
                 "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86",
                 "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
         },
         "python-json-logger": {
@@ -1482,7 +1504,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
         "sniffio": {
